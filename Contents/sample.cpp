@@ -1,12 +1,10 @@
-#include <bits/stdc++.h>
-using namespace std;
-typedef int i;
-int main()
-{
-     i a = 1;
-     cout << a << '\n';
-     return 0;
+#include<bits/stdc++.h> 
+using namespace std; 
+int main() 
+{ 
+ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL); 
+string a = "aaabbb"; 
+string b = a.substr(2); 
+cout << b << "\n";  // abbb 
+return 0; 
 }
-/*
-1
-*/
