@@ -3,5 +3,18 @@ using namespace std;
 int main() {
     string a = "It's hard to have a sore leg";
     reverse(a.begin(), a.end());
-    
+    cout << a << "\n";
+    reverse(a.begin(), a.end());
+    cout << a << "\n";
+    reverse(a.begin()+3, a.end());
+    cout << a << "\n";
+    reverse(a.begin()+3, a.end());
+    cout << a << "\n";
+
+
+    cin.ignore();
+    cin.get();
+    return 0;
+
+
 }
