@@ -1,10 +1,19 @@
-#include<bits/stdc++.h> 
-using namespace std; 
-int main() 
-{ 
-ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL); 
-string a = "aaabbb"; 
-string b = a.substr(2); 
-cout << b << "\n";  // abbb 
-return 0; 
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    string a = "It's hard to have a sore leg";
+    reverse(a.begin(), a.end());
+    cout << a << '\n';
+    reverse(a.begin(), a.end());
+    cout << a << '\n';
+    reverse(a.begin() + 3, a.end());
+    cout << a << '\n';
+
+    return 0;
 }
+/*
+gel eros a evah ot drah s'tI
+It's hard to have a sore leg
+It'gel eros a evah ot drah s
+*/
