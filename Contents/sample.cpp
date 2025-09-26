@@ -1,19 +1,9 @@
-#include <bits/stdc++.h>
-using namespace std;
-int main()
-{
-    string a = "It's hard to have a sore leg";
-    reverse(a.begin(), a.end());
-    cout << a << '\n';
-    reverse(a.begin(), a.end());
-    cout << a << '\n';
-    reverse(a.begin() + 3, a.end());
-    cout << a << '\n';
+#include <bits/stdc++.h>   
+using namespace std;  
+int main() { 
+    string s = "aavv"; 
+    int num = stoi(s); 
+    cout << num; // 1234 
 
-    return 0;
+    return 0; 
 }
-/*
-gel eros a evah ot drah s'tI
-It's hard to have a sore leg
-It'gel eros a evah ot drah s
-*/
